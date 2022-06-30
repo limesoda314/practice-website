@@ -6,7 +6,8 @@
 		count += 1;
 	}
 
-	let llama_image = "../images/baby_llama.png";
+	import Llama from "./llama.svelte";
+
 
 </script>
 
@@ -31,7 +32,9 @@
 
 	<hr>
 
-	<img src={llama_image} alt="minecraft baby llama">
+	<Llama/>
+
+	<Llama/>
 	
 </div>
 
